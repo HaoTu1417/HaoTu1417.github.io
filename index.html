@@ -80,20 +80,21 @@
       <!-- Target 1 -->
       <a-entity id="target0" mindar-image-target="targetIndex: 0">
         <a-box color="black" position="0 0 -0.0755" depth="0.001" height="1.2"
-          width="2"></a-box>
+          width="2" rotation="45 0 0"></a-box>
         <a-video id="videoPlayer" src="#videoAlta" width="2" height="1.2"
-          position="0 0 0">
-          <a-box color="black" position="0 0 -0.0755" depth="0.001" height="1.2"
+          position="0 0 0" rotation="45 0 0">
+          <a-box color="black" position="0 0 -0.0755" rotation="0 0 0"
+            depth="0.001" height="1.2"
             width="2"></a-box>
         </a-video>
         <a-entity gltf-model="#frame" scale="0.035 0.047 0.047" position="-0.025
           0
-          0"></a-entity>
+          0" rotation="45 0 0"></a-entity>
       </a-entity>
       <!-- End Target 1 -->
 
       <!-- Target 2 -->
-      <a-entity id="target1" mindar-image-target="targetIndex: 1">
+      <!-- <a-entity id="target1" mindar-image-target="targetIndex: 1">
         <a-video id="videoPlayer2" src="#videoAlta" width="2" height="1.2"
           position="0 0 0">
           <a-box color="black" position="0 0 -0.0755" depth="0.15" height="1.2"
@@ -102,7 +103,7 @@
         <a-entity gltf-model="#frame" scale="0.035 0.047 0.047" position="-0.025
           0
           0"></a-entity>
-      </a-entity>
+      </a-entity> -->
       <!-- End Target 1 -->
     </a-scene>
   </body>
